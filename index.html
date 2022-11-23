@@ -1,33 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>小叶专属!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小宋的导航页</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'myFont';
+    }
+
+    @font-face {
+      font-family: 'myFont';
+      src: url(font/FZFWZhuZiAYuanJWD.TTF);
+    }
+
+    .box_body {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .onebox {
+      margin-top: 50px;
+      margin-bottom: 350px;
+    }
+    .towbox {
+      margin-bottom: 50px;
+    }
+    .h1{
+      margin-top: 100px;
+      font-size: 100px;
+    }
+  </style>
 </head>
-<style>
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    #but{
-        border: 3px red solid;
-        float: right;
-        opacity: 0;
-    }
-    #box{
-        text-align: center;
-        font-size: 50px;
-    }
-</style>
 
-<body style="background-color: white">
-    <canvas id='cavs' style='position:fixed; z-index:-1;'></canvas>
-    <div id="box"></div>
-    <a id="but" href="./img/two.html">小叶,点这里哦!</a>
-</body>
+<body>
 
-</html>
-<script type="text/javascript">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-danger p-4">
+      <h5 class="text-white h4">点这里干嘛？</h5>
+      <span class="text-white">这里也藏着我爱你！</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-danger">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div id="box"></div>
+
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <h1 class="h1">Happy birthday, baby!</h1>
+    </blockquote>
+  </figure>
+
+
+  <canvas id='cavs' style='position:fixed; z-index:-1;'></canvas>
+  <figure class="text-center onebox">
+    <blockquote class="blockquote">
+      <h1>小叶，祝你生日快乐！！！</h1>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      爱你的 <cite title="Source Title">小宋</cite>
+    </figcaption>
+  </figure>
+
+  <figure class="text-center towbox">
+    <blockquote class="blockquote">
+      <p class="btn btn-danger">下面为您准备了很多惊喜，点开看看吧！</p>
+    </blockquote>
+  </figure>
+  <div class="box_body">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第一个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/01myHeart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第二个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/02OurNightSky/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第三个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/03flower/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第四个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/04loveLetter/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第五个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/05love_confession/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第六个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/06spoof_emoji/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第七个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/07biubiu_heart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第八个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/083D_Album/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="./img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">第九个</h5>
+            <p class="card-text">点击下面按钮看看有什么吧！</p>
+            <a href="./apps/09fireworks_love/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      <br>
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <h1>敬请期待...</h1>
+        </blockquote>
+      </figure>
+  </div>
+
+
+  <script src="./js/bootstrap.js"></script>
+  <script>
+    
     var canvas = document.getElementById("cavs");
     const WIDTH = window.innerWidth;
     const HEIGHT = window.innerHeight;
@@ -103,13 +272,11 @@
         var mia = Math.floor(ms / 1000 - day * 24 * 60 * 60 - shi * 60 * 60 - fen * 60);
         var hao = Math.floor(ms % 1000);
         var box = document.getElementById('box')
-        box.innerHTML = '小叶！我们已经在一起' + day + '天' + shi + '小时' + fen + '分钟' + mia + '秒' + '了哦！'
+        box.innerHTML = '💕' + day + '天' + shi + '小时' + fen + '分钟' + mia + '秒'
     }
     var d = new Date('2020/03/27');
     setInterval(function () { entime(d) }, 100)
-    setTimeout(()=>{
-        var but = document.getElementById('but');
-        but.style.opacity='1'
-    },10000)
+  </script>
+</body>
 
-</script>
+</html>
