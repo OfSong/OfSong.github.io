@@ -125,7 +125,7 @@
     }
     function entime(date) {
         var now = new Date();
-        var ms = data - now;
+        var ms = date - now;
         var day = Math.floor(ms / 1000 / 60 / 60 / 24);
         var shi = Math.floor(ms / 1000 / 60 / 60 - day * 24);
         var fen = Math.floor(ms / 1000 / 60 - day * 24 * 60 - shi * 60);
