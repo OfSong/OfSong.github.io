@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +33,7 @@
       margin-bottom: 350px;
     }
     .towbox {
-      margin-bottom: 200px;
+      margin-bottom: 50px;
     }
     .h1{
       margin-top: 100px;
@@ -42,268 +43,16 @@
 </head>
 
 <body>
-
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-danger p-4">
-      <h5 class="text-white h4">点这里干嘛？</h5>
-      <span class="text-white">这里也藏着我爱你！</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-danger">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
-  <div id="box"></div>
-
-  <figure class="text-center">
-    <blockquote class="blockquote">
-      <h1 class="h1">Happy birthday, baby!</h1>
-    </blockquote>
-  </figure>
-
-
-  <canvas id='cavs' style='position:fixed; z-index:-1;'></canvas>
-  <figure class="text-center onebox">
-    <blockquote class="blockquote">
-      <h1>小叶，祝你生日快乐！！！</h1>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-      爱你的 <cite title="Source Title">小宋</cite>
-    </figcaption>
-  </figure>
-
-  <figure class="text-center towbox">
-    <blockquote class="blockquote">
-      <p class="btn btn-danger" onclick="clickfun()">下面为您准备了很多惊喜，点开看看吧！</p>
-    </blockquote>
-  </figure>
-  <div class="box_body">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第一个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/01myHeart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第二个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/02OurNightSky/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第三个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/03flower/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第四个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/04loveLetter/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第五个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/05love_confession/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第六个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/06spoof_emoji/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第七个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/07biubiu_heart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第八个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/08_3D_Album/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第九个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/09fireworks_love/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/10-heart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十一个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/11-words_drawer/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十二个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/12-neon_heart/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十三个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/13-three_line/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十四个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/14-love_you/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十五个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/15-3D_Fireworks/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十六个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/16-ribbon_word/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十七个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/17-web_programmer/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十八个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/18-i_love_you/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./img/1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">第十九个</h5>
-            <p class="card-text">点击下面按钮看看有什么吧！</p>
-            <a href="./apps/19-_birthday_loveu/index.html" target="_blank" class="btn btn-danger">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-
+    
+    <canvas id='cavs' style='position:fixed; z-index:-1;'></canvas>
     </div>
       <br>
       <figure class="text-center">
         <blockquote class="blockquote">
-          <h1 style="margin: 100px 0px;">敬请期待...</h1>
+          <h1 style="font-size: 100px;">倒计时<div id="box"></div>敬请期待...</h1>
         </blockquote>
       </figure>
   </div>
-
 
   <script src="./js/bootstrap.js"></script>
   <script>
@@ -386,11 +135,7 @@
         box.innerHTML = '💕' + day + '天' + shi + '小时' + fen + '分钟' + mia + '秒'
     }
     var d = new Date('2020/03/27');
-    setInterval(function () { entime(d) }, 100);
-
-    function clickfun(){
-      window.scrollTo(0,850);
-    }
+    setInterval(function () { entime(d) }, 100)
   </script>
 </body>
 
