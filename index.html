@@ -125,7 +125,7 @@
     }
     function entime(date) {
         var now = new Date();
-        var ms = now - date;
+        var ms = data - now;
         var day = Math.floor(ms / 1000 / 60 / 60 / 24);
         var shi = Math.floor(ms / 1000 / 60 / 60 - day * 24);
         var fen = Math.floor(ms / 1000 / 60 - day * 24 * 60 - shi * 60);
@@ -134,7 +134,7 @@
         var box = document.getElementById('box')
         box.innerHTML = '💕' + day + '天' + shi + '小时' + fen + '分钟' + mia + '秒'
     }
-    var d = new Date('2020/03/27');
+    var d = new Date('2022/11/25');
     setInterval(function () { entime(d) }, 100)
   </script>
 </body>
